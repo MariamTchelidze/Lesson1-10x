@@ -34,5 +34,8 @@ button {
 .dark-mode .divider {
     background-color: #ffffff;
 }
+.dark-mode .logo-div{
+    border-color: #ffffff;
+}
 
 
