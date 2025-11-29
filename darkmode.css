@@ -37,5 +37,12 @@ button {
 .dark-mode .logo-div{
     border-color: #ffffff;
 }
-
-
+.dark-mode .light-cv-Body .left-body .input-div .column-div input{
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    width: 100%;
+    /* font-size: 32px; */
+    outline: none;
+}
