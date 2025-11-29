@@ -64,21 +64,15 @@ h2 .gradient2{
 }
 
 /* Dark CV Body styles start here */
-.dark-cv-Body {
+.light-cv-Body {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.dark-cv-Body .left-body{
+.light-cv-Body .left-body{
     display: flex;
     flex-direction: column;
 }
 
 
 
-
-
-/* Light CV styles start here */
-.light-cv-parent{
-    background-color: #ffffff;
-}
