@@ -66,11 +66,40 @@ h2 .gradient2{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 2%;
 }
 .light-cv-Body .left-body{
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
-
-
-
+.light-cv-Body .left-body .input-div .column-div input{
+    border: none;
+    border-bottom: 1px solid #9F9F9F;
+    width: 100%;
+}
+.light-cv-Body .left-body hr{
+    width: 100%;
+    border-style: 1px solid #9F9F9F;
+    /* margin-top: -8%; */
+}
+.light-cv-Body .left-body .input-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+}
+.light-cv-Body .left-body .column-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.light-cv-Body .left-body .column-div :nth-last-child(1n+1){
+    outline: none;
+}
+.light-cv-Body .left-body .input-div .column-div :nth-child(2){  
+    /* background-color: red; */
+    margin-top: 5%;
+}
