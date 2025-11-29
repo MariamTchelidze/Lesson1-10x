@@ -4,18 +4,15 @@ body{
     height: 100%;
     background-color: #ffffff;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
-.light-cv-parent{
-    height: 90vh;
-    width: 50vw;
-}
-
-/* CV Styles starts here: */
-
 .light-cv-parent{
     background-color: #ffffff;
+    width: 90%;
+    /* height: 100%; */
 }
+
 /* Profile Image, Name, Position */
 .light-header-div{
     display: flex;
@@ -26,7 +23,6 @@ body{
 .logo-div{
     height: 120px;
     width: 120px;
-    /* background-color: #8EC5FC; */
     border-style: solid;
     border-color: #000000;
     border-width: 1px;
