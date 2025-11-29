@@ -1,0 +1,38 @@
+/* Toggle between dark-Light modes */
+button {
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  margin: 20px;
+  font-size: 1rem;
+}
+
+/* Dark mode Switch */
+.dark-mode {
+  background: #1a1a1a;
+  color: #f1f1f1;
+}
+.dark-mode h1{
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 40px;
+}
+.dark-mode h2{
+    font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 40px;
+}
+.dark-mode button {
+  background: #333333;
+  color: #ffffff;
+}
+.dark-mode .divider {
+    background-color: #ffffff;
+}
+
+
