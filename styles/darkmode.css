@@ -44,7 +44,10 @@ button {
   background: #333333;
   color: #ffffff;
 }
-.dark-mode h1, h2, h3, p{
+.dark-mode h1, h2, p{
+  color: #ffffff;
+}
+.dark-mode h3{
   color: #ffffff;
 }
 .dark-mode .general-class{
