@@ -38,8 +38,8 @@ body {
 }
 #Escultures{
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: -200px;
+    right: -20px;
 }
 
 /* Build a main grid*/
@@ -60,8 +60,7 @@ body {
 .header {
     display: flex;
     justify-content: space-evenly;
-    align-content: center;
-    /* background-color: #444; */
+    align-items: center;
     width: 100%;
     grid-column: 1 / -1;
     clear: both;

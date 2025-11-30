@@ -1,0 +1,66 @@
+@media (max-width: 810px) {
+    h1, h2{
+        font-size: 24px;
+    }
+    .header{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:800px){
+    #Escultures{
+        display: none;
+    }
+    .experience-list::before {
+        height: 80%;
+    }
+}
+@media(max-width: 792px){
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width:610px){
+    .dashboard {
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 530px){
+    .header .divider {
+        display: none;
+    }
+    .header .logo-div{
+        display: none;
+    }
+    .header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 530px;
+        margin: 0 auto;
+        grid-gap: 10px;
+    }
+    .dark-theme-button{
+        margin-left: 85% !important;
+    }
+}
+@media (max-width:447px){
+    .header {
+        display: flex !important;
+        flex-direction: column;
+    }
+    .header h2 {
+        font-size: 18px;
+        font-display: swap;
+        text-align: center;
+    }
+    .header h1{
+        text-align: center;
+    }
+}

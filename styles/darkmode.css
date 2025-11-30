@@ -65,3 +65,7 @@ button {
 .dark-mode .profile-h3{
   color: #ffffff;
 }
+.dark-mode .dashboard-p{
+  color: #ffffff !important;  
+  /*es vici Secdoma rom aris, magram sxvanairad vegar movaswari:( */
+}
