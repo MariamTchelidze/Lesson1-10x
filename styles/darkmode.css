@@ -6,7 +6,7 @@ button {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 10px 15px;
+  padding: 10px;
   border: none;
   cursor: pointer;
   border-radius: 6px;
@@ -20,12 +20,12 @@ button {
     padding: 10px;
     background-color: #333333;
     color: #f1f1f1;
-    padding: 10px 15px;
     border: none;
     cursor: pointer;
     border-radius: 6px;
     margin: 20px;
     font-size: 1rem;
+    
 }
 .dark-mode.dark-theme{
   background-color: #1a1a1a;
@@ -42,5 +42,26 @@ button {
 }
 .dark-mode button {
   background: #333333;
+  color: #ffffff;
+}
+.dark-mode h1, h2, h3, p{
+  color: #ffffff;
+}
+.dark-mode .general-class{
+  color: #ffffff;
+}
+
+.dark-mode .personal-input{
+  color: #ffffff;
+}
+.dark-mode .logo .img-logo{
+  filter: brightness(0) invert(1);
+}
+/* Dark mode right -bar */
+
+.dark-mode .profile-p{
+  color: #ffffff;
+}
+.dark-mode .profile-h3{
   color: #ffffff;
 }

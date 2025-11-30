@@ -21,7 +21,7 @@ h1, h2{
   font-size: 40px;
   text-transform: uppercase;
 }
-h3 {
+h3, .profile-h3 {
     text-transform: uppercase;
     font-family: "Anton", sans-serif;
     font-weight: 400;
@@ -49,4 +49,9 @@ label{
 .right-bar .right-body .Profile-heading p{
     font-family: "Gotham";
     font-weight: 100;
+}
+.profile-p{
+    font-family: "Gotham";
+    font-size: 18px;
+    color: #292929;
 }

@@ -137,7 +137,7 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
 }
-.left-bar .left-body .personal-details .column-div :nth-last-child(1n+1){
+.left-bar .left-body .personal-details .column-div :nth-child(1n+1){
     outline: none;
 }
 .left-bar .left-body .personal-details .input-div .column-div :nth-child(2){  
@@ -247,6 +247,7 @@ body {
     flex-direction: column;
     justify-content: start;
     align-items: start;
+    gap: 20px;
 }
 .right-bar .right-body .dashboard{
     display: grid;
