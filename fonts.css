@@ -1,12 +1,3 @@
-@font-face {
-  font-family: 'Anton';
-  src: url('fonts/anton.ttf') format('truetype');
-  font-weight: normal;
-}
-@font-face {
-    font-family: 'Gotham';
-    src: url(fonts/Gotham\ Black\ Regular.ttf);
-}
 
 /* Font styles for all the Body goes here */
 h1, h2{
@@ -22,6 +13,14 @@ h3 {
     font-family: "Anton", sans-serif;
     font-weight: 400;
 }
-p{
-    
+/* Heading decorations */
+h1 .gradient1{
+    background: -webkit-linear-gradient(#E0C3FC, #8EC5FC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h2 .gradient2{
+    background: -webkit-linear-gradient(#FA709A, #FEE140);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

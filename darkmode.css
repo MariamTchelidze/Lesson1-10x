@@ -51,3 +51,6 @@ button {
 .dark-mode .light-cv-Body .left-body .contact-parent .contact-me-list a{
   color: #ffffff;
 }
+.dark-mode .light-cv-Body .left-body #logohref img {
+  filter: invert(1);
+}
