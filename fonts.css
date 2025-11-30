@@ -1,17 +1,31 @@
 
 /* Font styles for all the Body goes here */
+
+@font-face {
+    font-family: 'Anton';
+    src: url('fonts/anton.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('fonts/Gotham\ Black\ Regular.ttf');
+    font-weight: 400;
+}
+
 h1, h2{
   font-family: "Anton", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #000000;
+  color: #292929;
   font-size: 40px;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 h3 {
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-family: "Anton", sans-serif;
     font-weight: 400;
+    color: #292929;
 }
 /* Heading decorations */
 h1 .gradient1{
@@ -23,4 +37,16 @@ h2 .gradient2{
     background: -webkit-linear-gradient(#FA709A, #FEE140);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+p, .skills label{
+    font-family: "Gotham";
+    font-weight: bold;
+    color: #292929;
+}
+label{
+    color: #000000;
+}
+.right-bar .right-body .Profile-heading p{
+    font-family: "Gotham";
+    font-weight: 100;
 }

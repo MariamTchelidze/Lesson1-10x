@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="darkmode.css">
-    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
-    <section class="light-cv-parent">
-        <div class="light-header-div">
+    <section>
+        <div class="wrapper dark-theme">
+        <div class="header">
             <div class="logo-div">
                 <img class="profile-image" src="assets/My-image.jpg" alt="Profile Image">
             </div>
@@ -28,13 +28,12 @@
             </h2>
             <button id="theme-toggle">🌙 Dark Mode</button>
         </div>
-        <hr>
-        <div class="light-cv-Body">
+        <div class="left-bar">
             <div class="left-body">
                 <div class="personal-details">
                     <div class="column-div personal-heading">
                         <h3>PERSONAL</h3>
-                        <hr>
+                        <hr class="horizontal-hr">
                     </div>
                     <div class="input-div" id="input-parent">
                         <div class="full-name column-div">
@@ -56,34 +55,76 @@
                     </div>
                 </div>
                 <div class="contact-parent">
-                    <!-- <div class="contact-information"> -->
                         <div class="contact-details">
                             <h3>Contact</h3>
-                            <hr>
+                            <hr class="horizontal-hr">
                         </div>
                         <div class="contact-me-list">
                             <div class="email-address">
-                            <p class="Email">Email</p>
-                            <a href="#" target="_blank">email@example.com</a>
-                            <hr class="contact-hr">
+                                <p class="Email">Email</p>
+                                <a href="#" target="_blank">email@example.com</a>
+                                <hr class="contact-hr">
+                            </div>
+                            <div class="web-site">
+                                <p>Web</p>
+                                <a href="https://github.com/MariamTchelidze?tab=repositories" target="_blank">website.com</a>
+                                <hr class="contact-hr">
+                            </div>
+                            <div class="social-media">
+                                <p class="linkedin">Linkedin</p>
+                                <a href="https://www.linkedin.com/in/mariam-tchelidze/" target="_blank">Mariam Tchelidze</a>
+                                <hr class="contact-hr">
+                            </div>
                         </div>
-                        <div class="web-site">
-                            <p>Web</p>
-                            <a href="https://github.com/MariamTchelidze?tab=repositories" target="_blank">website.com</a>
-                            <hr class="contact-hr">
+                </div>
+                <div class="software-main">
+                    <div class="software-details">
+                        <h3>Sofware</h3>
+                        <hr class="horizontal-hr">
+                    </div>
+                    <div class="skills">
+                        <div class="skill1">
+                            <label for="Figma">Figma</label>
+                            <input type="range" class="range">
                         </div>
-                        <div class="social-media">
-                            <p class="linkedin">Linkedin</p>
-                            <a href="https://www.linkedin.com/in/mariam-tchelidze/" target="_blank">Mariam Tchelidze</a>
-                            <hr class="contact-hr">
+                        <div class="skill2">
+                            <label for="Adobe Illustrator">Adobe Illustrator</label>
+                            <input type="range" class="range">
                         </div>
-                    <!-- </div> -->
+                        <div class="skill3">
+                            <label for="After Effects">After Effects</label>
+                            <input type="range" class="range">
+                        </div>
+                        <div class="skill4">
+                            <label for="Hotjar">Hotjar</label>
+                            <input type="range" class="range">
+                        </div>
+                    </div>
+                <a href="index.html" id="logohref" class="logo"><img class="tian-logo" src="assets/Tian-logo.svg" alt="Tian"></a>
                 </div>
             </div>
-            <hr>
-            <div class="right-body"></div>
         </div>
+        <div class="right-bar">
+            <div class="right-body">
+                <div class="column-div Profile-heading">
+                        <h3>Profile</h3>
+                        <hr class="horizontal-hr">
+                        <p>I am a Product Designer and Frontend Developer,  I fully understand the process of design and development of a digital product, my job is to make a product usable and visually appealing, through the Design Thinking methodology I manage to create products that are endearing to users.</p>
+                </div>
+                <div class="dashboard">
+                    <div class="ux circle">UX</div>
+                    <div class="ui circle">UI</div>
+                    <div class="design circle">Design</div>
+                    <div class="ia circle">IA</div>
+                </div>
+                <div class="Work"></div>
+                <div class="education"></div>
+            </div>
+        </div>
+    </div>
     </section>
+    <!-- <img id="Escultures" src="assets/Escultures.jpg" alt="Escultures"> -->
+
 
 
 

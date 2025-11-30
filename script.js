@@ -1,6 +1,6 @@
 // Get the button and the div you want to toggle
 const toggle = document.getElementById('theme-toggle');
-const headerDiv = document.querySelector('.light-cv-parent'); // select the div by class
+const headerDiv = document.querySelector('.dark-theme'); // select the div by class
 // const lightText = document.querySelector('.full-name')
 
 // Add click event
