@@ -33,13 +33,15 @@ body {
     width: 50%;
     border: 1px solid #292929;
 }
-
+.right-body{
+    position: relative;
+}
 #Escultures{
     position: absolute;
-    /* bottom: 0; */
     bottom: 0;
     right: 0;
 }
+
 /* Build a main grid*/
 .wrapper {
   max-width: 940px;
@@ -52,14 +54,9 @@ body {
   color: #fff;
   border-radius: 5px;
   padding: 20px;
-  font-size: 150%;
+  /* font-size: 150%; */
   margin-bottom: 10px;
 }
-
-.right-bar{
-    background-color: whitesmoke;
-}
-
 .header {
     display: flex;
     justify-content: space-evenly;
@@ -243,7 +240,7 @@ body {
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    gap: 30px;
+    gap: 40px;
 }
 .right-bar .right-body .profile-heading{
     display: flex;
@@ -274,15 +271,103 @@ body {
 .circle::before {
     content: "";
     position: absolute;
-    inset: -4px;                /* border thickness */
+    inset: -4px;
     border-radius: 50%;
-    padding: 4px;               /* creates the border width */
+    padding: 4px;
     background: conic-gradient(#6ef7b4, #6bbcf8, #6ef7b4);
     -webkit-mask:
         linear-gradient(#fff 0 0) content-box,
         linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
             mask-composite: exclude;
-
-    animation: spin 2.5s linear infinite;
 }
+.right-bar .right-body.work .work-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+}
+.right-bar .right-body .work .work-heading hr{
+    width: auto;
+    border: 1px #292929 solid;
+}
+
+
+
+.experience-list {
+    position: relative;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    margin:auto;
+}
+.right-bar .right-body .education .edu-heading{
+display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+}
+.right-bar .right-body .education .edu-heading hr{
+    width: 100%;
+    max-width: 600px;
+    border: 1px #292929 solid;
+}
+/* Vertical line */
+.experience-list::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 98px;
+    width: 2px;
+    height: calc(260px - 50px);
+    background: #9F9F9F;
+}
+
+.item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+/* Year badge */
+.year {
+    background: black;
+    color: white;
+    font-weight: 700;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-right: 25px;
+    position: relative;
+    z-index: 2;
+}
+
+/* Black dot */
+.dot {
+    width: 12px;
+    height: 12px;
+    background: black;
+    border-radius: 50%;
+    margin-right: 25px;
+    margin-top: 8px;
+    z-index: 2;
+}
+
+.content h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.content p {
+    margin: 3px 0 0;
+    font-size: 14px;
+    color: #555;
+    text-transform: uppercase;
+}
+
+
+

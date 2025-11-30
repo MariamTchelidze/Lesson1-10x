@@ -1,5 +1,11 @@
 Toggle between dark-Light modes */
+section {
+  position: relative;
+}
 button {
+  position: absolute;
+  top: 0;
+  left: 0;
   padding: 10px 15px;
   border: none;
   cursor: pointer;
@@ -8,21 +14,21 @@ button {
   font-size: 1rem;
   color: #1a1a1a;
 }
-
 /* Dark mode Switch */
 
 .dark-mode #theme-toggle {
     padding: 10px;
     background-color: #333333;
     color: #f1f1f1;
+    padding: 10px 15px;
     border: none;
     cursor: pointer;
     border-radius: 6px;
     margin: 20px;
     font-size: 1rem;
 }
-.dark-mode .dark-theme{
-  background: #ffffff;
+.dark-mode.dark-theme{
+  background-color: #1a1a1a;
   color: #f1f1f1;
 }
 .dark-mode button{
@@ -34,43 +40,7 @@ button {
   font-size: 1rem;
   color: #ffffff;
 }
-.dark-mode h1{
-  font-family: "Anton", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #ffffff;
-  font-size: 40px;
-}
-.dark-mode h2{
-  font-family: "Anton", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #ffffff;
-  font-size: 40px;
-}
 .dark-mode button {
   background: #333333;
   color: #ffffff;
-}
-.dark-mode .divider {
-    background-color: #ffffff;
-}
-.dark-mode .logo-div{
-    border-color: #ffffff;
-}
- .dark-mode .light-cv-Body .left-body .input-div .column-div input{
-    border: none;
-    border-bottom: 1px solid #ffffff;
-    background-color: transparent;
-    color: #ffffff;
-    width: 100%;
-    outline: none;
-}
-
-/* Contact Information on Dark Mode */
-.dark-mode .dark-theme .left-bar .contact-parent .contact-me-list a{
-  color: #ffffff;
-}
-.dark-mode .light-cv-Body .left-body #logohref img {
-  filter: invert(1);
 }
