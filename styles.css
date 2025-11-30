@@ -43,13 +43,6 @@ body{
     height: 80px;
     background-color: #000000;
 }
-h1, h2{
-  font-family: "Anton", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #000000;
-  font-size: 40px;
-}
 h1 .gradient1{
     background: -webkit-linear-gradient(#E0C3FC, #8EC5FC);
     -webkit-background-clip: text;
@@ -60,8 +53,7 @@ h2 .gradient2{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-/* Dark CV Body styles start here */
+/* PERSONAL iNFORMATION */
 .light-cv-Body {
     display: flex;
     justify-content: space-between;
@@ -71,35 +63,67 @@ h2 .gradient2{
 .light-cv-Body .left-body{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    justify-content: start;
+    align-items: start;
+    gap: 30px;
 }
 .light-cv-Body .left-body .input-div .column-div input{
     border: none;
     border-bottom: 1px solid #9F9F9F;
     width: 100%;
 }
-.light-cv-Body .left-body hr{
+.light-cv-Body .left-body .personal-details{
+    display: flex;
+    flex-direction: column;
+}
+.light-cv-Body .left-body .personal-details hr{
     width: 100%;
     border-style: 1px solid #9F9F9F;
     /* margin-top: -8%; */
 }
-.light-cv-Body .left-body .input-div{
+.light-cv-Body .left-body .personal-details .input-div{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 15px;
 }
-.light-cv-Body .left-body .column-div{
+.light-cv-Body .left-body .personal-details .column-div{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
 }
-.light-cv-Body .left-body .column-div :nth-last-child(1n+1){
+.light-cv-Body .left-body .personal-details .column-div :nth-last-child(1n+1){
     outline: none;
 }
-.light-cv-Body .left-body .input-div .column-div :nth-child(2){  
+.light-cv-Body .left-body .personal-details .input-div .column-div :nth-child(2){  
     /* background-color: red; */
     margin-top: 5%;
+}
+/* CONTACT ME PART STYLES CSS */
+
+.light-cv-Body .left-body .contact-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+}
+.light-cv-Body .left-body .contact-parent .contact-details{
+    width: 100%;
+}
+.light-cv-Body .left-body .contact-parent .contact-me-list .email-address{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.light-cv-Body .left-body .contact-parent .contact-me-list a {
+    width: 100%;
+    text-decoration: none;
+    color: #292929;
+}
+.contact-hr{
+    width: 100%;
+    color: #9F9F9F;
 }

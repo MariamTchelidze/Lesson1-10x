@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Anton';
+  src: url('fonts/anton.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url(fonts/Gotham\ Black\ Regular.ttf);
+}
+
+/* Font styles for all the Body goes here */
+h1, h2{
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+h3 {
+    text-transform: capitalize;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+}
+p{
+    
+}

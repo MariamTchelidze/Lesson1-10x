@@ -46,3 +46,8 @@ button {
     /* font-size: 32px; */
     outline: none;
 }
+
+/* Contact Information on Dark Mode */
+.dark-mode .light-cv-Body .left-body .contact-parent .contact-me-list a{
+  color: #ffffff;
+}
