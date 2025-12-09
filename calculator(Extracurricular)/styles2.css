@@ -1,4 +1,3 @@
-
 :root {
   /* sensible defaults you can override */
   -webkit-font-smoothing: antialiased;
@@ -92,47 +91,11 @@ fieldset {
     text-shadow: none !important;
   }
 }
-/* Calculator styles starts here */
 .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: aquamarine;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.calculator{
-    background-color: #5a5555;
-    padding: 20px;
-    border-radius: 10px;
-}
-.calculator form input {
-    border: 0;
-    outline: 0;
-    width: 60px;
-    height: 60px;
-    border-radius: 10px;
-    box-shadow: -8px -8px 15px rgba(255,255,255,0.1), 5px 5px 15px rgba(0, 0, 0,0.2);
-    background: transparent;
-    font-size: 20px;
-    font-size: 20px;
-    cursor: pointer;
-    margin: 10px;
-}
-form .display {
-    display: flex;
-    justify-content: flex-end;
-    margin: 20px 0;
-}
-form .display input {
-    text-align: right;
-    flex: 1;
-    font-size: 36px;
-    box-shadow: none;
-}
-form input.equal {
- width: 42%;
-}
-.operator {
-    color: #33ffd8;
+    background-image: url(https://shorthand.com/the-craft/vector-images/assets/6n3s11ARUn/sh-unsplash_-uqzptoj8nk-4096x2731.jpeg);
 }
