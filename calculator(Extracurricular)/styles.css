@@ -1,0 +1,94 @@
+/* Modern CSS reset — Dec 2025 */
+:root {
+  /* sensible defaults you can override */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: light dark; /* allow UA to choose user-preferred color scheme */
+}
+
+/* Box sizing --------------------------------------------------------------*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margins and make a predictable body ---------------------*/
+html, body {
+  height: 100%;
+  margin: 0;
+  line-height: 1.4;           /* readable base line-height; override in components */
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Make images & media responsive and not overflow ------------------------*/
+img, picture, video, canvas, svg {
+  display: block;             /* avoids descender whitespace */
+  max-width: 100%;
+  height: auto;
+}
+
+/* Typography inheritance for form controls -------------------------------*/
+input, button, textarea, select {
+  font: inherit;              /* so type sizing/line-height matches body */
+}
+
+/* Remove native button styles but keep accessibility focus ----------------*/
+button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+button, [type="button"], [type="reset"], [type="submit"] {
+  cursor: pointer;
+}
+
+/* Links & lists -----------------------------------------------------------*/
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* Tables -----------------------------------------------------------------*/
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Form elements baseline -------------------------------------------------*/
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Accessibility: respect reduced motion preference -----------------------*/
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Focus styles: keep visible keyboard focus (customize per project) ------*/
+:focus {
+  outline: 2px solid CanvasText; /* fallback; replace with project token */
+  outline-offset: 2px;
+}
+
+/* Print accessibility ----------------------------------------------------*/
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+}
