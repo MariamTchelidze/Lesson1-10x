@@ -1,197 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
-    <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="stylesheet" href="./styles/fonts.css">
-    <link rel="stylesheet" href="./styles/darkmode.css">
-    <link rel="stylesheet" href="./styles/responsive.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/fonts.css" />
+    <link rel="stylesheet" href="./styles/darkmode.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+  </head>
+  <body>
     <section>
-        <div class="wrapper dark-theme">
+      <div class="wrapper dark-theme">
         <div class="header">
-            <div class="logo-div">
-                <img class="profile-image" src="assets/My-image.jpg" alt="Profile Image">
-            </div>
-            <h1 class="full-name">
-                <span class="gradient1"> Mariam</span>
-                <br> 
-                Tchelidze
-            </h1>
-            <div class="divider"></div>
-            <h2>
-                Front-end <br> 
-                <span class="gradient2"> 
-                Developer</span>
-            </h2>
-            <button id="theme-toggle" class="dark-theme-button">🌙</button>
+          <div class="logo-div">
+            <img
+              class="profile-image"
+              src="assets/My-image.jpg"
+              alt="Profile Image"
+            />
+          </div>
+          <h1 class="full-name">
+            <span class="gradient1"> Mariam</span>
+            <br />
+            Tchelidze
+          </h1>
+          <div class="divider"></div>
+          <h2>
+            Front-end <br />
+            <span class="gradient2"> Developer</span>
+          </h2>
+          <button id="theme-toggle" class="dark-theme-button">🌙</button>
         </div>
         <div class="left-bar">
-            <div class="left-body">
-                <div class="personal-details">
-                    <div class="column-div personal-heading">
-                        <h3>PERSONAL</h3>
-                        <hr class="horizontal-hr">
-                    </div>
-                    <div class="input-div" id="input-parent">
-                        <div class="full-name column-div">
-                            <label for="name" class="general-class">Name</label>
-                            <input type="text" class="personal-input general-class">
-                        </div>
-                        <div class="birthday column-div">
-                            <label for="birthday" class="general-class">Birthday</label>
-                            <input type="text" id="birthday-input" name="birthday"  class="personal-input">
-                        </div>
-                        <div class="selection column-div">
-                            <label for="nationality" class="general-class">Nationality</label>
-                            <input type="text" id="nationality" name="nationality"  class="personal-input">
-                        </div>
-                        <div class="language column-div">
-                            <label for="language" class="general-class">Language</label>
-                            <input type="text" id="language" name="language"  class="personal-input">
-                        </div>
-                    </div>
+          <div class="left-body">
+            <div class="personal-details">
+              <div class="column-div personal-heading">
+                <h3>PERSONAL</h3>
+                <hr class="horizontal-hr" />
+              </div>
+              <div class="input-div" id="input-parent">
+                <div class="full-name column-div">
+                  <label for="name" class="general-class">Name</label>
+                  <input type="text" class="personal-input general-class" />
                 </div>
-                <div class="contact-parent">
-                        <div class="contact-details">
-                            <h3>Contact</h3>
-                            <hr class="horizontal-hr">
-                        </div>
-                        <div class="contact-me-list">
-                            <div class="email-address">
-                                <p class="Email">Email</p>
-                                <a class="general-class" href="#" target="_blank">email@example.com</a>
-                                <hr class="contact-hr">
-                            </div>
-                            <div class="web-site">
-                                <p>Web</p>
-                                <a class="general-class" href="https://github.com/MariamTchelidze?tab=repositories" target="_blank" class="general-class">website.com</a>
-                                <hr class="contact-hr">
-                            </div>
-                            <div class="social-media">
-                                <p class="linkedin">Linkedin</p>
-                                <a class="general-class" href="https://www.linkedin.com/in/mariam-tchelidze/" target="_blank">Mariam Tchelidze</a>
-                                <hr class="contact-hr">
-                            </div>
-                        </div>
+                <div class="birthday column-div">
+                  <label for="birthday" class="general-class">Birthday</label>
+                  <input
+                    type="text"
+                    id="birthday-input"
+                    name="birthday"
+                    class="personal-input"
+                  />
                 </div>
-                <div class="software-main">
-                    <div class="software-details">
-                        <h3>Sofware</h3>
-                        <hr class="horizontal-hr">
-                    </div>
-                    <div class="skills">
-                        <div class="skill1">
-                            <label for="Figma" class="general-class">Figma</label>
-                            <input type="range" class="range">
-                        </div>
-                        <div class="skill2">
-                            <label for="Adobe Illustrator" class="general-class">Adobe Illustrator</label>
-                            <input type="range" class="range">
-                        </div>
-                        <div class="skill3">
-                            <label for="After Effects" class="general-class">After Effects</label>
-                            <input type="range" class="range">
-                        </div>
-                        <div class="skill4">
-                            <label for="Hotjar" class="general-class">Hotjar</label>
-                            <input type="range" class="range">
-                        </div>
-                    </div>
-                <a href="index.html" id="logohref" class="logo"><img class="img-logo" src="assets/Tian-logo.svg" alt="Tian"></a>
+                <div class="selection column-div">
+                  <label for="nationality" class="general-class"
+                    >Nationality</label
+                  >
+                  <input
+                    type="text"
+                    id="nationality"
+                    name="nationality"
+                    class="personal-input"
+                  />
                 </div>
+                <div class="language column-div">
+                  <label for="language" class="general-class">Language</label>
+                  <input
+                    type="text"
+                    id="language"
+                    name="language"
+                    class="personal-input"
+                  />
+                </div>
+              </div>
             </div>
+            <div class="contact-parent">
+              <div class="contact-details">
+                <h3>Contact</h3>
+                <hr class="horizontal-hr" />
+              </div>
+              <div class="contact-me-list">
+                <div class="email-address">
+                  <p class="Email">Email</p>
+                  <a class="general-class" href="#" target="_blank"
+                    >email@example.com</a
+                  >
+                  <hr class="contact-hr" />
+                </div>
+                <div class="web-site">
+                  <p>Web</p>
+                  <a
+                    class="general-class"
+                    href="https://github.com/MariamTchelidze?tab=repositories"
+                    target="_blank"
+                    class="general-class"
+                    >website.com</a
+                  >
+                  <hr class="contact-hr" />
+                </div>
+                <div class="social-media">
+                  <p class="linkedin">Linkedin</p>
+                  <a
+                    class="general-class"
+                    href="https://www.linkedin.com/in/mariam-tchelidze/"
+                    target="_blank"
+                    >Mariam Tchelidze</a
+                  >
+                  <hr class="contact-hr" />
+                </div>
+              </div>
+            </div>
+            <div class="software-main">
+              <div class="software-details">
+                <h3>Sofware</h3>
+                <hr class="horizontal-hr" />
+              </div>
+              <div class="skills">
+                <div class="skill1">
+                  <label for="Figma" class="general-class">Figma</label>
+                  <input type="range" class="range" />
+                </div>
+                <div class="skill2">
+                  <label for="Adobe Illustrator" class="general-class"
+                    >Adobe Illustrator</label
+                  >
+                  <input type="range" class="range" />
+                </div>
+                <div class="skill3">
+                  <label for="After Effects" class="general-class"
+                    >After Effects</label
+                  >
+                  <input type="range" class="range" />
+                </div>
+                <div class="skill4">
+                  <label for="Hotjar" class="general-class">Hotjar</label>
+                  <input type="range" class="range" />
+                </div>
+              </div>
+              <a href="index.html" id="logohref" class="logo"
+                ><img class="img-logo" src="assets/Tian-logo.svg" alt="Tian"
+              /></a>
+            </div>
+          </div>
         </div>
         <div class="right-bar">
-            <div class="right-body">
-                <div class="column-div profile-heading">
-                        <h3 class="profile-h3">Profile</h3>
-                        <hr class="horizontal-hr">
-                        <p class="profile-p">I am a Product Designer and Frontend Developer,  I fully understand the process of design and development of a digital product, my job is to make a product usable and visually appealing, through the Design Thinking methodology I manage to create products that are endearing to users.</p>
-                </div>
-                <div class="dashboard">
-                    <div class="ux circle">
-                        <p class="dashboard-p">UX</p>
-                    </div>
-                    <div class="ui circle">
-                        <p class="dashboard-p">UI</p>
-                    </div>
-                    <div class="design circle">
-                        <p class="dashboard-p">Design</p>
-                    </div>
-                    <div class="ia circle">
-                        <p class="dashboard-p">IA</p>
-                    </div>
-                </div>
-                <div class="work">
-                    <div class="work-heading">
-                        <h3>Work</h3>
-                        <hr>
-                    </div>
-                    <div class="experience-list">
-                        <div class="item">
-                            <div class="year">2022</div>
-                            <div class="dot"></div>
-                            <div class="content">
-                                <h3>COMMUNITY AMBASSADOR</h3>
-                                <p>Platzi, Colombia</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="year">2022</div>
-                            <div class="dot"></div>
-                            <div class="content">
-                                <h3>PRODUCT DESIGNER</h3>
-                                <p>Upwork, Bucaramanga Colombia</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="year">2019</div>
-                            <div class="dot"></div>
-                            <div class="content">
-                                <h3>UX/UI DESIGNER</h3>
-                                <p>Freelance Bucaramanga, Colombia</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="education">
-                    <div class="edu-heading">
-                        <h3>Education</h3>
-                        <hr>
-                    </div>
-                     <div class="experience-list edu-list">
-                        <div class="item">
-                            <div class="year">2022</div>
-                            <div class="dot"></div>
-                            <div class="content">
-                                <h3>ux design</h3>
-                                <p>coursera</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="year">2019</div>
-                            <div class="dot"></div>
-                            <div class="content">
-                                <h3>UX/UI DESIGNER - product design</h3>
-                                <p>Platzi, colombia</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <img id="Escultures" src="assets/Escultures.svg" alt="Escultures">
+          <div class="right-body">
+            <div class="column-div profile-heading">
+              <h3 class="profile-h3">Profile</h3>
+              <hr class="horizontal-hr" />
+              <p class="profile-p">
+                I am a Product Designer and Frontend Developer, I fully
+                understand the process of design and development of a digital
+                product, my job is to make a product usable and visually
+                appealing, through the Design Thinking methodology I manage to
+                create products that are endearing to users.
+              </p>
             </div>
+            <div class="dashboard">
+              <div class="ux circle">
+                <p class="dashboard-p">UX</p>
+              </div>
+              <div class="ui circle">
+                <p class="dashboard-p">UI</p>
+              </div>
+              <div class="design circle">
+                <p class="dashboard-p">Design</p>
+              </div>
+              <div class="ia circle">
+                <p class="dashboard-p">IA</p>
+              </div>
+            </div>
+            <div class="work">
+              <div class="work-heading">
+                <h3>Work</h3>
+                <hr />
+              </div>
+              <div class="experience-list">
+                <div class="item">
+                  <div class="year">2022</div>
+                  <div class="dot"></div>
+                  <div class="content">
+                    <h3>COMMUNITY AMBASSADOR</h3>
+                    <p>Platzi, Colombia</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="year">2022</div>
+                  <div class="dot"></div>
+                  <div class="content">
+                    <h3>PRODUCT DESIGNER</h3>
+                    <p>Upwork, Bucaramanga Colombia</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="year">2019</div>
+                  <div class="dot"></div>
+                  <div class="content">
+                    <h3>UX/UI DESIGNER</h3>
+                    <p>Freelance Bucaramanga, Colombia</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="education">
+              <div class="edu-heading">
+                <h3>Education</h3>
+                <hr />
+              </div>
+              <div class="experience-list edu-list">
+                <div class="item">
+                  <div class="year">2022</div>
+                  <div class="dot"></div>
+                  <div class="content">
+                    <h3>ux design</h3>
+                    <p>coursera</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="year">2019</div>
+                  <div class="dot"></div>
+                  <div class="content">
+                    <h3>UX/UI DESIGNER - product design</h3>
+                    <p>Platzi, colombia</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img id="Escultures" src="assets/Escultures.svg" alt="Escultures" />
+          </div>
         </div>
-    </div>
-    
+      </div>
     </section>
 
-
-
-
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
