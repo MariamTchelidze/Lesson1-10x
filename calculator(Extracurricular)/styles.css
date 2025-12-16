@@ -118,6 +118,7 @@ fieldset {
     font-size: 20px;
     cursor: pointer;
     margin: 10px;
+    
 }
 form .display {
     display: flex;
