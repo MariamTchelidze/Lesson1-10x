@@ -1,0 +1,22 @@
+@media (max-width: 1100px) {
+  #burgerbar {
+    display: blockquote;
+  }
+  header nav {
+    display: none;
+  }
+}
+@media (max-width: 730px) {
+  .desktop-title {
+    display: none;
+  }
+  .mobile-title {
+    display: block;
+  }
+}
+@media (max-width: 360px) {
+  h1 {
+    font-size: 24px;
+    white-space: nowrap;
+  }
+}
